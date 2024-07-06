@@ -587,6 +587,10 @@
   margin: 50px 0;
 }
 
+.main-contact .main_card a{
+text-decoration: none;
+}
+
 .main-contact .main_card .card-contact {
   /* height: 225px; */
   border: 1px solid #01a9f4;
@@ -754,7 +758,7 @@ footer img{
 
 .scroll-top{
   font-family: "Montserrat", sans-serif;
-  z-index: 100;  
+  z-index: 10;  
   cursor: pointer;
   background-color: #000;
   color: #fff;
@@ -831,6 +835,13 @@ footer img{
 }
 
 @media screen and (max-width: 450px) {
+
+  .main-about .text p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+
   .jumbotron .kanan {
     transform: scale(1);
   }
