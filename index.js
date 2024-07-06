@@ -1,4 +1,6 @@
 
+
+
 window.addEventListener("load", () => {
   document.querySelector(".loader").classList.add("loader--hidden");
 });
@@ -38,3 +40,5 @@ var typed = new Typed("#hi", {
   backSpeed: 70,
   loop: true,
 });
+
+
