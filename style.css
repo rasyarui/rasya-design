@@ -4,15 +4,6 @@
   scroll-behavior: smooth;
 }
 
-/* .loading  {
-  position: absolute;
-  z-index: 150;
-  width: 100vw;
-  background-color: #67aaf6 ;
-  height: 100vh;
-} */
-
-/* HTML: <div class="loader"></div> */
 .loader {
   width: 100vw;
   z-index: 999;
@@ -26,6 +17,7 @@
   display: grid;
   background: #01a9f4;
   filter: blur(10) contrast(20) hue-rotate(30deg);
+  transition: opacity 1s, visibility 1s;
   
   /* mix-blend-mode: darken; */
 }
@@ -279,15 +271,39 @@
   text-decoration: none;
 }
 
-.jumbotron .kanan img {
-  width: 100%;
+
+
+
+.jumbotron .kanan .blob:hover{
+  filter: drop-shadow(1px 1px 10px #099fe4);
+
+
+}
+.jumbotron .kanan .blob{
+  background-image: url('/Assets/rasya.png');
+  background-repeat: no-repeat;
+  background-size:460px;
+  height: 100%;
+  width: 450px;
+  transition: ease-in-out .3s;
+  display: flex;
+  position: relative;
+
+}
+
+.jumbotron .kanan img{
+  /* -webkit-mask-image: url('/Assets/rasya.png'); */
+  transform: rotate(10deg);
+  margin-left: 5px;
+  align-items: center;
+  display: flex;
 }
 
 .jumbotron .kanan {
   padding: 20px;
   width: auto;
-  transform: scale(1.1);
-  filter: drop-shadow(1px 1px 10px #099fe4);
+  /* transform: scale(1.1); */
+  /* filter: drop-shadow(1px 1px 10px #099fe4); */
 }
 
 .jumbotron .kiri {
@@ -596,6 +612,9 @@
   opacity: 70%;
 }
 .main-project .card-project:nth-child(6) .btn {
+  opacity: 70%;
+}
+.main-project .card-project:nth-child(7) .btn {
   opacity: 70%;
 }
 
