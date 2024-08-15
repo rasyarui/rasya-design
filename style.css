@@ -614,9 +614,9 @@
 .main-project .card-project:nth-child(6) .btn {
   opacity: 70%;
 }
-.main-project .card-project:nth-child(7) .btn {
+/* .main-project .card-project:nth-child(7) .btn {
   opacity: 70%;
-}
+} */
 
 .main-project .card-project .btn {
   background-color: #01a9f4;
