@@ -10,7 +10,7 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   aspect-ratio: 1;
   padding: 10px;
   box-sizing: border-box;
@@ -846,14 +846,11 @@ footer img {
 /* Responsive */
 
 @media screen and (max-width: 956px) {
-  .jumbotron .kanan {
-    /* background-color: rebeccapurple; */
-    transform: scale(0.8);
-  }
+
+
 
   .jumbotron .kiri {
     height: auto;
-
     margin-top: -50px;
     text-align: center;
   }
