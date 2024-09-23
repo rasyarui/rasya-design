@@ -9,7 +9,7 @@
   background-color: #4d69ff;
   width: 0%;
   height: 5px;
-  border-radius: 10px;
+  border-radius: 0 10px 10px 0;
   top: 0;
   z-index: 10;
 }
