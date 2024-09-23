@@ -1,5 +1,16 @@
 
+let progress = document.querySelector('.progress_bar');
 
+
+let documentHeight = document.documentElement.scrollHeight;
+
+window.onscroll = function(){
+  console.log(scrollY);
+
+  let scrolled = (scrollY / documentHeight) * 230;
+
+  progress.style.width = scrolled + "%";
+}
 
 window.addEventListener("load", () => {
   document.querySelector(".loader").classList.add("loader--hidden");
@@ -40,5 +51,7 @@ var typed = new Typed("#hi", {
   backSpeed: 70,
   loop: true,
 });
+
+
 
 

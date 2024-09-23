@@ -4,6 +4,16 @@
   scroll-behavior: smooth;
 }
 
+.progress_bar{
+  position: fixed;
+  background-color: #4d69ff;
+  width: 0%;
+  height: 5px;
+  border-radius: 10px;
+  top: 0;
+  z-index: 10;
+}
+
 .loader {
   width: 100vw;
   z-index: 999;
@@ -186,8 +196,8 @@
 
 .navbar.scroll {
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255,255, .5);
+  backdrop-filter: blur(8px);
   position: fixed;
   right: 0;
   left: 0;
@@ -195,7 +205,7 @@
   z-index: 9;
   height: 45px;
   /* width: 100%; */
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(26, 26, 26, 0.1);
 }
 
 .navbar {
